@@ -57,8 +57,8 @@ const Events = () => {
           className="bg-[#003ACF1A]"
           style={{ boxShadow: "2px 2px 48px 0px #003ACF1A" }}
         >
-          <div className="flex p-5 gap-20">
-            <div className="">
+          <div className="flex p-5 gap-20 items-center justify-center">
+            <div className="w-1/3">
               <div className="relative">
                 <img className="w-full" src="/src/assets/images/e1.png" alt="" />
                 <div className="absolute top-1 left-1">
@@ -100,7 +100,7 @@ const Events = () => {
                 <button>See More</button>
               </div>
             </div>
-            <div className="">
+            <div className="w-1/3">
               <div className="relative">
                 <img className="w-full" src="/src/assets/images/e2.png" alt="" />
                 <div className="absolute top-1 left-1 space-x-44">
@@ -142,7 +142,7 @@ const Events = () => {
                 <button>See More</button>
               </div>
             </div>
-            <div className="">
+            <div className="w-1/3">
               <div className="relative">
                 <img className="w-full" src="/src/assets/images/e3.png" alt="" />
                 <div className="absolute top-1 left-1 space-x-44">
